@@ -21,5 +21,5 @@ public interface NodeExpander<N> {
      * @param node the node whose neighbors to return.
      * @return an iterator over neighbor nodes.
      */
-    public Iterator expand(N node);
+    public Iterable<N> expand(N node);
 }
