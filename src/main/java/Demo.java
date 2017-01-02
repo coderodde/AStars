@@ -1,6 +1,7 @@
 
 import java.awt.geom.Point2D;
 import java.util.Random;
+import java.util.concurrent.TimeUnit;
 import net.coderodde.graph.support.DirectedGraph;
 import net.coderodde.graph.support.DirectedGraphNodeCoordinates;
 import net.coderodde.graph.support.DirectedGraphWeightFunction;
@@ -15,6 +16,9 @@ public class Demo {
     private static final float EXPLICIT_WEIGHT_COST_FACTOR = 1.2f;
     
     public static void main(String[] args) {
+        TimeUnit timeUnit = TimeUnit.MILLISECONDS;
+        System.out.println(timeUnit.toMillis(2));
+        
         long seed = System.nanoTime();
         Random random = new Random(seed);
         System.out.println("Seed = " + seed);
