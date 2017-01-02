@@ -120,6 +120,14 @@ public final class SlidingTilePuzzleNode {
         return newNode;
     }
     
+    public byte get(int x, int y) {
+        return matrix[y][x];
+    }
+    
+    public int getWidth() {
+        return matrix.length;
+    }
+    
     @Override
     public int hashCode() {
         int width = matrix.length;

@@ -1,4 +1,4 @@
-package net.coderodde.graph;
+package net.coderodde.graph.support;
 
 import java.util.Collections;
 import java.util.HashSet;

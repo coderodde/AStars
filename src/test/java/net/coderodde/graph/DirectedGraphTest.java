@@ -1,5 +1,6 @@
 package net.coderodde.graph;
 
+import net.coderodde.graph.support.DirectedGraph;
 import java.util.Set;
 import org.junit.Before;
 import org.junit.Test;
